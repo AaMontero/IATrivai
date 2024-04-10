@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "fleet-day-405220",
+  "private_key_id": "190b1ee05321a489c0d792e635bed3a54f919287",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDGXO3Rj+3nt1l0\nqKUBXwVsMNiTHaPGfYqztoJDyZTi86FYaL897dGXg6ie1w25Xv7t14xDY3ms5loJ\nK6/vSn4jm+HS34JZdVskvHZZsQJoOVL5Q2esYRgMTubs+xtd/l7WdwMZk7qyYkyh\np+XRFoGpoaLrNh28DIkbuEKRN3Z8b4beogrzAycJB0Ke+49c/n87Dv7jgqw52HEj\nielaY04yHs5v+x7Fzpy6eVh7sRxOf2pDNQGfdsACHX4cqEPpP0mHNpnhwAyN23NF\nnHdOtvGY9gUYZwTGMNPBA9tsvW4Byb9StqjU605PNw66AYrRBxDAwgRtg4a2V9Do\nRnSf+r8rAgMBAAECggEAA9PdFRvznVRhUCiCJ4qkiXQe+tzjn64ZMFPAi037BVOC\nZxqJkQV4jBcrNXox8fTsF3pgpecxLY2z3g8BZD9/VAlJr0QD7QHXHaeRmhvi+h+J\nno1dTCsnjcICMeodpwyiwhWQ0JSmiIcUuHcRtLum2ZK+DIxIXx/qIdpAPaCUkFC2\nMP72mHnNz99NtP5HS4TI9vIVNyk/eciSw6KqocWCvHDuaupjebqnlAS4gSOyXVy8\n0BdgmJYSCoRuiAKulUD3zBIrNWewMMKGssCBA5LX8SuxmyaJdMz+2sUDZILS7DOs\nBqfBrOIbIEhwVYznCXMdVos65wAsBVnyvnDgaTYGjQKBgQDpeObPHZqVlVweFuQ4\nVeL7GjRmpM202Lxd6nGaJqV4lD7rT21VnrB6oOfjTJjnYXJxXM15j8IsWF+c6jyF\nWmr6cyKeXVUSR8KJHmSqmjPh0wVOdQAy0f0EduKom2LS3wtRM+xPGuBm9Y1JYO+Y\nuAQDarLkknJo3b9WRjlClXw67wKBgQDZgMdBXWEWVbpaThxNz00BaywRGmG9+3ZW\nayY5Ls5WFjVVk/tV4ocytnuKsw6IR3w6hOq8JduT7znrf8kWTsvOT7jDFw5AihOv\nE7qLM4a2QUJYZG8s7waijikb3/oiaTYLDZMIbNGgdlGhKYbasXbIWHl6H+FSokRa\nLwdjd0XvhQKBgFmAw9r6mlxl2d6fH/aI1m806InA/CssO2o1ij9yOVU0X7qNxHhi\nUX1xWfRFVQi+zsSuswa7GdEuP9lD4teshf5lTQww84ACio1OXYEZhHI6F3qwV9cj\nsT+Y4+OHTidQ4mHK6fiZcRWHZRaQVsnRIZi9ur7tdXbGK6fDXAgujmV5AoGARXBa\nrOCeDV5jN092s9S59fj8QZ2VlOzCNAbTVjA+SbefYWn0NNA0b5lYycgunI2N+LTU\nqCrB9nHKoQfT8B5J7N0A1K/4qdwrOprm1Ggn2unsv4GZCNRq3tzZ/P89wVyrl03H\nIkpzhnIfz38NgaZkkMPGTJn++r25ar1W84dxuW0CgYASdGNv49jOqRINud5mVA7d\noei/pzRz+EcXyym0EsBGHA1K2Fnr7X04GPyfzQhAXYWtw0DVYssd/koywZfLdwL1\nFIiWTjFUVCqg0MIJwkPzIvl0DE++UWj+uh2F6Kwz0lV5/PROOpQ2m73TStZPF7Oy\ncq1kBae3TMFsPpJeOEdW9w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "api-de-voz@fleet-day-405220.iam.gserviceaccount.com",
+  "client_id": "115103078365487269685",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/api-de-voz%40fleet-day-405220.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
