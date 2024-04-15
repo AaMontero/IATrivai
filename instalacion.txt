@@ -23,3 +23,6 @@ pip install Flask
 
 #instalar para transformar el audio
 pip install pydub
+
+#encender el servidor 
+py main.py
