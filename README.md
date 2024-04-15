@@ -1,7 +1,7 @@
 # Configuración del Entorno y Ejecución
 
 ## Creación del Entorno Virtual
-```bash
+
 py -m venv entornoMV
 cd entornoMV
 cd Scripts 
