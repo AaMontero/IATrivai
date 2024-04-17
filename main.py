@@ -1,7 +1,9 @@
-from flask import Flask, request
+from flask import Flask, request, Response 
 from google.cloud import speech
 from google.oauth2 import service_account
 from pydub import AudioSegment
+from google.cloud import texttospeech
+import io
 app = Flask(__name__)
 
 @app.route("/<mensaje>" ,methods=["GET", "POST"])
@@ -65,7 +67,29 @@ def audioText():
         return transcript, 200
     else:
         return "No se encontraron resultados de transcripción", 400
-    
+@app.route("/audioToText", methods=["POST"])  
+def devolver_audio():
+    # Obtener el texto del cuerpo de la solicitud POST
+    texto = request.form.get('texto', '')  # Acceder al texto enviado desde PHP
+    client_file = "sa_key_demo.json"
+    credentials = service_account.Credentials.from_service_account_file(client_file)
+    client = texttospeech.TextToSpeechClient(credentials=credentials)
+    synthesis_input = texttospeech.SynthesisInput(text=texto)
+    voice = texttospeech.VoiceSelectionParams(
+        language_code="es-US",
+        name="es-US-Neural2-B",
+        ssml_gender=texttospeech.SsmlVoiceGender.MALE,
+    )
+    audio_config = texttospeech.AudioConfig(
+        audio_encoding=texttospeech.AudioEncoding.MP3
+    )
+
+    response = client.synthesize_speech(
+        input=synthesis_input, voice=voice, audio_config=audio_config
+    )
+
+    print(texto)
+    return Response(response.audio_content, mimetype='audio/mpeg')
 
 def convert_ogg_to_wav():
     song = AudioSegment.from_ogg("temp_audio_file.ogg").set_sample_width(2)
@@ -75,3 +99,4 @@ if __name__ == "__main__":
     respuesta = mensaje_Llega(mensaje_usuario)
     print(respuesta)'''
     app.run(debug=True)
+    #devolver_audio("texto")

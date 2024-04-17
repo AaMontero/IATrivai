@@ -15,9 +15,11 @@ pip install --upgrade pip
 #Instalar from google.cloud import speech
 pip install google-auth
 pip install google-cloud-speech
+pip install google-cloud-texttospeech
 
 #Instalacion del servidor 
 pip install Flask
+
 
 #instalar para transformar el audio
 pip install pydub
